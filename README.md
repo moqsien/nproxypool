@@ -8,6 +8,9 @@ Redis+aiohttp+Flask+gunicorn实现，用户只需要用相关命令创建项目�
 
 实行打分制度，初始分数为60，检测合格一次直接升至100，检测不合格一次减30分，直至超过阈值就会被删除。
 
+### nproxypool工作流程
+![avatar](https://github.com/moqsien/nproxypool/blob/main/docs/proxypool.png)
+
 ### nproxypool使用方法
 
 ```bash
@@ -61,4 +64,11 @@ curl "http://localhost:5001/proxy/total/?key=baidu"
     - to_sleep 检测进程间隔多久检测一轮
     - max_worker 检测进程发送请求的并发数，越高检测越快
     
-    
+### 一代池代理ip效果图
+![avatar](https://github.com/moqsien/nproxypool/blob/main/docs/first_level_pool.png)
+
+### 二代池代理ip效果图
+![avatar](https://github.com/moqsien/nproxypool/blob/main/docs/second_level_pool.png)
+
+### 通过server获取检测后的ip效果图
+![avatar](https://github.com/moqsien/nproxypool/blob/main/docs/random.png)
