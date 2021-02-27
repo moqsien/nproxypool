@@ -15,7 +15,7 @@ Redis+aiohttp+Flask+gunicorn实现，用户只需要用相关命令创建项目�
 
 ```bash
 # 安装
-bash install.sh
+pip install nproxypool
 # or 
 python setup.py build
 python setup.py install
