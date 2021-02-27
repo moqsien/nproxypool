@@ -16,11 +16,11 @@ install_requires = [
 setup(
     name='Nproxypool',
     version='1.0.2',
-    url='https://github.com/moqsien/scrapx',
+    url='https://github.com/moqsien/nproxypool',
     project_urls={
-        'Documentation': 'https://github.com/moqsien/scrapx/blob/main/README.md',
-        'Source': 'https://github.com/moqsien/scrapx',
-        'Tracker': 'https://docs.scrapy.org/',
+        'Documentation': 'https://github.com/moqsien/nproxypool/blob/main/README.md',
+        'Source': 'https://github.com/moqsien/nproxypool',
+        'Tracker': 'https://github.com/moqsien/nproxypool',
     },
     description='A Proxypool',
     author='MoQsien',
