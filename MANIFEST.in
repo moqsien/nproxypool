@@ -1,0 +1,2 @@
+include myproxypool/templates/logs/ *
+recursive-include myproxypool/templates *

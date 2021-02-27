@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.vscode
+.idea
+test.py
+build/*
+dist/*
+build
+dist
+*.egg*/
+*.egg*
+*.log
+*.pid
+install.sh

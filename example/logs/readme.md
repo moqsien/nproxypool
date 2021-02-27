@@ -1,0 +1,1 @@
+This dir is just for log files saving.
